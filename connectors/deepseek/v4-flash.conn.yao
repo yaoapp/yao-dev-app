@@ -1,0 +1,16 @@
+{
+  "label": "DeepSeek V4 Flash",
+  "type": "openai",
+  "options": {
+    "model": "deepseek-v4-flash",
+    "key": "$ENV.DEEPSEEK_V4_API_KEY",
+    "proxy": "https://api.deepseek.com",
+    "capabilities": {
+      "tool_calls": true,
+      "streaming": true,
+      "json": true,
+      "max_input_tokens": 1000000,
+      "max_output_tokens": 16384
+    }
+  }
+}

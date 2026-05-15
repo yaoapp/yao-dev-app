@@ -1,7 +1,7 @@
 {
   "name": "Search Auto Disabled Test",
   "description": "Test assistant with search disabled via uses.search",
-  "connector": "deepseek.v3",
+  "connector": "deepseek.v4-flash",
   "search": {
     "web": {
       "provider": "tavily",

@@ -65,16 +65,16 @@
         }
       },
       {
-        "label": "Deepseek V3 (Alternative)",
-        "value": "deepseek-v3",
+        "label": "Deepseek V4 Flash (Alternative)",
+        "value": "deepseek-v4-flash",
         "description": "Cost-effective alternative with good performance",
         "properties": {
           "size": 300,
           "overlap": 50,
           "max_depth": 3,
           "semantic": {
-            "connector": "deepseek.v3",
-            "toolcall": false
+            "connector": "deepseek.v4-flash",
+            "toolcall": true
           }
         }
       }

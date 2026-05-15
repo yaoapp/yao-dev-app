@@ -21,7 +21,7 @@ uses:
   validation: "robot.validation" # Validation: Task output validation agent
 
 system:
-  default: "deepseek.v3"
+  default: "deepseek.v4-flash"
 
 # ===============================
 # Conversation Store Settings

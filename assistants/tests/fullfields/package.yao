@@ -5,7 +5,7 @@
   "connector": "gpt-4o",
   "connector_options": {
     "optional": true,
-    "connectors": ["gpt-4o", "gpt-4o-mini", "deepseek"],
+    "connectors": ["gpt-4o", "gpt-4o-mini", "deepseek.v4-flash"],
     "filters": ["vision", "tool_calls"]
   },
   "description": "Test assistant with all available fields for unit testing",

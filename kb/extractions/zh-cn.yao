@@ -20,10 +20,10 @@
         "properties": { "connector": "openai.gpt-4o", "toolcall": true }
       },
       {
-        "label": "Deepseek V3（替代选择）",
-        "value": "deepseek-v3",
+        "label": "Deepseek V4 Flash（替代选择）",
+        "value": "deepseek-v4-flash",
         "description": "更省成本的基础实体与关系识别方案",
-        "properties": { "connector": "deepseek.v3", "toolcall": false }
+        "properties": { "connector": "deepseek.v4-flash", "toolcall": true }
       }
     ]
   }

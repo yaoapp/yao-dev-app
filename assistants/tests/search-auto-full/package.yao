@@ -1,7 +1,7 @@
 {
   "name": "Search Auto Full Test",
   "description": "Test assistant with full search configuration (Web + KB + DB)",
-  "connector": "deepseek.v3",
+  "connector": "deepseek.v4-flash",
   "search": {
     "web": {
       "provider": "tavily",

@@ -1,7 +1,7 @@
 {
   "name": "Sandbox Hook-Only Test",
   "description": "Test sandbox without prompts/skills/mcp - hooks take full control",
-  "connector": "deepseek.v3",
+  "connector": "deepseek.v4-flash",
   "uses": {
     "search": "disabled"
   },

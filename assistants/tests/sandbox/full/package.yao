@@ -1,7 +1,7 @@
 {
   "name": "Sandbox Full Test",
   "description": "Full sandbox test with MCPs, Skills, and Hooks",
-  "connector": "deepseek.v3",
+  "connector": "deepseek.v4-flash",
   "uses": {
     "search": "disabled"
   },

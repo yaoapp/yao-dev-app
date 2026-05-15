@@ -1,7 +1,7 @@
 {
   "name": "Sandbox E2E Test Assistant",
   "description": "End-to-end test assistant for validating sandbox + claude-proxy integration",
-  "connector": "deepseek.v3",
+  "connector": "deepseek.v4-flash",
   "uses": {
     "search": "disabled"
   },

@@ -3,7 +3,7 @@
   "connector": "moonshot.kimi-k2_5-code",
   "connector_options": {
     "optional": true,
-    "connectors": ["moonshot.kimi-k2_5-code", "deepseek.v3", "openai.gpt-4o"],
+    "connectors": ["moonshot.kimi-k2_5-code", "deepseek.v4-flash", "openai.gpt-4o"],
     "filters": ["tool_calls"]
   },
   "mcp": {

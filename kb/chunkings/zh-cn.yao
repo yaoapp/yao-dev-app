@@ -65,16 +65,16 @@
         }
       },
       {
-        "label": "Deepseek V3（替代选择）",
-        "value": "deepseek-v3",
+        "label": "Deepseek V4 Flash（替代选择）",
+        "value": "deepseek-v4-flash",
         "description": "性价比高的替代方案，性能良好",
         "properties": {
           "size": 300,
           "overlap": 50,
           "max_depth": 3,
           "semantic": {
-            "connector": "deepseek.v3",
-            "toolcall": false
+            "connector": "deepseek.v4-flash",
+            "toolcall": true
           }
         }
       }
