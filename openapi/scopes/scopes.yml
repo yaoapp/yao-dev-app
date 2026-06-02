@@ -91,3 +91,10 @@ endpoints:
   # fall through to blanket allow until they get their own scope files.
   - GET /setting/system allow
   - POST /setting/system/* allow
+  - GET /setting/api-keys allow
+  - POST /setting/api-keys allow
+  - DELETE /setting/api-keys/* allow
+  - POST /setting/api-keys/*/regenerate allow
+
+  # Experts Chat Completions - Allow all authenticated users
+  - POST /experts/*/chat/completions allow
