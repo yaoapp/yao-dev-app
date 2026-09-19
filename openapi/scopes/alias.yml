@@ -316,6 +316,7 @@ user:admin:
   - llm:read
   - mcp:read
   - otp:admin
+  - setting:admin
 
 # ============ Trace Management Aliases ============
 
@@ -385,6 +386,20 @@ api:all:own:
 api:all:team:
   - api:api:execute:team
 
+# ============ Setting Management Aliases ============
+
+setting:admin:
+  - "setting:*:*:*"
+
+setting:read:
+  - setting:cloud:read:all
+  - setting:llm:read:all
+  - setting:search:read:all
+  - setting:ocr:read:all
+  - setting:smtp:read:all
+  - setting:mcp:read:all
+  - setting:sandbox:read:all
+
 # ============ Sandbox Management Aliases ============
 
 sandbox:read:
@@ -411,6 +426,7 @@ workspace:admin:
   - workspaces:files:read:all
   - workspaces:files:write:all
   - workspaces:files:delete:all
+  - workspaces:git:all
 
 # ============ Nodes Management Aliases ============
 

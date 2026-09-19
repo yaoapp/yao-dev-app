@@ -32,3 +32,26 @@ workspaces:files:delete:all:
   description: "Delete workspace files"
   endpoints:
     - DELETE /workspace/:id/files/*path
+
+workspaces:git:all:
+  description: "Git operations in workspaces"
+  endpoints:
+    - GET /workspace/:id/git/repos
+    - GET /workspace/:id/git/status
+    - GET /workspace/:id/git/diff
+    - POST /workspace/:id/git/add
+    - POST /workspace/:id/git/reset
+    - POST /workspace/:id/git/commit
+    - POST /workspace/:id/git/discard
+    - GET /workspace/:id/git/config
+    - POST /workspace/:id/git/config
+    - POST /workspace/:id/git/credential
+    - GET /workspace/:id/git/credentials
+    - DELETE /workspace/:id/git/credential
+    - POST /workspace/:id/git/ssh-key
+    - GET /workspace/:id/git/ssh-keys
+    - DELETE /workspace/:id/git/ssh-key
+    - POST /workspace/:id/git/fetch
+    - POST /workspace/:id/git/pull
+    - POST /workspace/:id/git/push
+    - POST /workspace/:id/git/sync
