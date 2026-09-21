@@ -399,6 +399,7 @@ setting:read:
   - setting:smtp:read:all
   - setting:mcp:read:all
   - setting:sandbox:read:all
+  - setting:tao:read:all
 
 # ============ Sandbox Management Aliases ============
 
